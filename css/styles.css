@@ -1,7 +1,21 @@
-.navbar{
-    background-color: #E5501C;
-}
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.navbar {
+  background-color: #E54F1C; }
 
 .footer {
-    background-color: #E5501C;
-}
+  background-color: #E54F1C; }
+
+.navbar-nav li {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.card-header {
+  background-color: #196392; }

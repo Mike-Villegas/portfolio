@@ -1,0 +1,68 @@
+$color-primary-0: #E54F1C;	// Main Primary color */
+$color-primary-1: #FF9875;
+$color-primary-2: #F1754A;
+$color-primary-3: #B5370C;
+$color-primary-4: #8E2400;
+
+$color-secondary-1-0: #196392;	// Main Secondary color (1) */
+$color-secondary-1-1: #578EB1;
+$color-secondary-1-2: #35739A;
+$color-secondary-1-3: #0E4C74;
+$color-secondary-1-4: #05395B;
+
+$color-secondary-2-0: #71CE19;	// Main Secondary color (2) */
+$color-secondary-2-1: #A8E96B;
+$color-secondary-2-2: #8CD942;
+$color-secondary-2-3: #55A30B;
+$color-secondary-2-4: #3E8000;
+
+
+
+// As RGBa codes */
+
+$rgba-primary-0: rgba(229, 79, 28,1);	// Main Primary color */
+$rgba-primary-1: rgba(255,152,117,1);
+$rgba-primary-2: rgba(241,117, 74,1);
+$rgba-primary-3: rgba(181, 55, 12,1);
+$rgba-primary-4: rgba(142, 36,  0,1);
+
+$rgba-secondary-1-0: rgba( 25, 99,146,1);	// Main Secondary color (1) */
+$rgba-secondary-1-1: rgba( 87,142,177,1);
+$rgba-secondary-1-2: rgba( 53,115,154,1);
+$rgba-secondary-1-3: rgba( 14, 76,116,1);
+$rgba-secondary-1-4: rgba(  5, 57, 91,1);
+
+$rgba-secondary-2-0: rgba(113,206, 25,1);	// Main Secondary color (2) */
+$rgba-secondary-2-1: rgba(168,233,107,1);
+$rgba-secondary-2-2: rgba(140,217, 66,1);
+$rgba-secondary-2-3: rgba( 85,163, 11,1);
+$rgba-secondary-2-4: rgba( 62,128,  0,1);
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: $color-primary-0;
+}
+
+.footer {
+    background-color: $color-primary-0;
+}
+
+.navbar-nav li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; 
+}
+
+.card-header {
+    background-color: $color-secondary-1-0;
+}
