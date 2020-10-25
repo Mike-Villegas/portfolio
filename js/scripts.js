@@ -12,3 +12,9 @@ $(function() {
         }
     });
   });
+
+$(function(){
+  $("#contactUsButton").click(function() {
+    $("#contactModal").modal("show");
+  });
+  });

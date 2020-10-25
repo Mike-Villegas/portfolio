@@ -17,5 +17,17 @@ h1 {
   bottom: 0;
   z-index: 100; }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
 .card-header {
-  background-color: #196392; }
+  background-color: #196392;
+  color: white; }
+
+#contactUsButton {
+  background-color: #196392;
+  color: white; }
+
+#contactSendButton {
+  background-color: #196392;
+  color: white; }

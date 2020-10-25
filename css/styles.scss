@@ -39,6 +39,8 @@ $rgba-secondary-2-3: rgba( 85,163, 11,1);
 $rgba-secondary-2-4: rgba( 62,128,  0,1);
 
 
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -63,6 +65,21 @@ h1 {
     z-index: 100; 
 }
 
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
 .card-header {
     background-color: $color-secondary-1-0;
+    color: white;
+}
+
+#contactUsButton {
+    background-color: $color-secondary-1-0;
+    color: white;
+}
+
+#contactSendButton {
+    background-color: $color-secondary-1-0;
+    color: white;
 }
