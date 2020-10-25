@@ -69,7 +69,7 @@ h1 {
     background-color: $color-black-transparent;
 }
 
-.card-header {
+#ratesAndHoursCard, #beginnersCard, #facilitiesCard  {
     background-color: $color-secondary-1-0;
     color: white;
 }
