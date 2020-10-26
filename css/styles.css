@@ -31,3 +31,21 @@ h1 {
 #contactSendButton {
   background-color: #196392;
   color: white; }
+
+#rentalGearRates {
+  background-color: #196392;
+  color: white; }
+
+#dayPassRates {
+  background-color: #35739A;
+  color: white; }
+
+#membershipRates {
+  background-color: #578EB1;
+  color: white; }
+
+#ratesAndHoursTable th {
+  text-align: right; }
+
+#ratesAndHoursTable td {
+  text-align: left; }

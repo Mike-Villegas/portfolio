@@ -82,18 +82,126 @@
                 <h3 class="text-center">Rates</h3>
                 <div class="accordion" id="ratesAccordion">
                     <div class="card">
-                        <div class="card-header">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Rental Gear
-                                </button>
-                              </h2>
+                        <div class="card-header" id="rentalGearRates">                           
+                                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseRentalGear" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4 class="mb-0">Rental Gear</h4>
+                                </button>                              
                         </div>
+                        <div id="collapseRentalGear" class="collapse" aria-labelledby="headingOne" data-parent="#ratesAccordion">
+                            <div class="card-body">
+                                <table class="table">
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Full Climbing Gear</td>
+                                        <td>$10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Harness</td>
+                                        <td>$5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Climbing Shoes</td>
+                                        <td>$6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chalk (optional)</td>
+                                        <td>$2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="dayPassRates">                           
+                                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseDayPass" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4 class="mb-0">Day Passes</h4>
+                                </button>                              
+                        </div>
+                        <div id="collapseDayPass" class="collapse" aria-labelledby="headingOne" data-parent="#ratesAccordion">
+                            <div class="card-body">
+                                <table class="table">
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2-Hour Session</td>
+                                        <td>$10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Day-Pass</td>
+                                        <td>$15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5-Day Climbing Pass</td>
+                                        <td>$65</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10-Day Climbing Pass</td>
+                                        <td>$120</td>
+                                    </tr>
+                                </table>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="membershipRates">                           
+                                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseMemberships" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4 class="mb-0">Memberships</h4>
+                                </button>                              
+                        </div>
+                        <div id="collapseMemberships" class="collapse" aria-labelledby="headingOne" data-parent="#ratesAccordion">
+                            <div class="card-body">
+                                <table class="table">
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Monthly</td>
+                                        <td>$60</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Yearly (Adult)</td>
+                                        <td>$575</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Yearly (Youth)</td>
+                                        <td>$450</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Family (2+)</td>
+                                        <td>Call for Rates</td>
+                                    </tr>
+                                </table>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <h3 class="text-center">Hours</h3>
+                <table class="table" id="ratesAndHoursTable">
+                    <tr>
+                        <th>Mon - Thurs:</th>
+                        <td>10am - 9pm</td>
+                    </tr>
+                    <tr>
+                        <th>Friday:</th>
+                        <td>10am - 11pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday:</th>
+                        <td>8am - 11pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday:</th>
+                        <td>8am - 9pm</td>
+                    </tr>
+                </table>
             </div>
         </div>
       </div>

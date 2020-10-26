@@ -83,3 +83,28 @@ h1 {
     background-color: $color-secondary-1-0;
     color: white;
 }
+
+#rentalGearRates {
+    background-color: $color-secondary-1-0;
+    color: white;
+}
+
+#dayPassRates {
+    background-color: $color-secondary-1-2;
+    color: white;
+}
+
+#membershipRates {
+    background-color: $color-secondary-1-1;
+    color: white;
+}
+
+
+#ratesAndHoursTable {
+    th {
+        text-align: right;
+    }
+    td {
+        text-align: left;
+    }
+}
