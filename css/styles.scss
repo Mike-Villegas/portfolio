@@ -79,6 +79,13 @@ h1 {
     color: white;
 }
 
+#contactModal {
+    .card-header {
+        background-color: $color-secondary-1-0;
+        color: white;
+    }
+}
+
 #contactSendButton {
     background-color: $color-secondary-1-0;
     color: white;
