@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Risu Climbing</title>
+    </head>
+
+    <body>
+        <header class="jumbotron jumbotron-fluid mb-0 p-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-4 col-sm-3 col-md-2 m-auto">
+                  <img src="img/logo.png" alt="logo" class="img-fluid"/>
+              </div>
+              <div class="col text-center m-auto">
+                  <h1>Risu Climbing</h1>
+              </div>
+              <div class="col-2 m-auto">
+                  <button id="contactUsButton" class="btn btn-lg" type="button"><a class="text-light" href="#">Contact Us</a></button>
+              </div>
+            </div>
+          </div>
+        </header>
+
+      <div id="contactModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="card">
+            <h5 class="card-header text-white text-center py-4">Contact us</h5>
+            <div class="card-body px-lg-5 pt-0">
+                <form class="text-center p-5" action="#!">
+                    <input type="text" id="contactFormName" class="form-control mb-4" placeholder="Name">
+                    <input type="email" id="contactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                    <label>Subject</label>
+                    <select class="browser-default custom-select mb-4">
+                        <option value="1" selected>General</option>
+                        <option value="4">Feedback</option>
+                        <option value="2">Reserve a Time Slot</option>
+                        <option value="3">Membership</option>
+                    </select>
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="formControlTextarea2" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="contactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                    </div>
+                    <button id="contactSendButton" class="btn btn-block" type="submit">Send</button>
+                </form>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-sm navbar-dark sticky-top mb-4">
+          <div class="container">
+            <div class="collapse navbar-collapse" id="risuClimbingNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rates-hours.html"> Rates and Hours</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="document-files/Climbing Waiver.pdf" target="_blank"> Waiver Form</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Store</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger bg-warning" href="#"> Covid-19 Updates</a></li>
+                </ul>
+            </div>
+          </div>
+      </nav>
+          
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col text-center">
+                    <h2>About Us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Risu Climbing is a 4,000 square foot gym with over 3,500 square feet of climbing surface with heights up to 21ft. We have terrain for beginners up to advanced climbers, with climbing holds produced by some of the best manufacturers in the country. These include Nicros, eGrips, and Atomik. <br> <br>
+                        There are currently 50+ top rope routes and 20+ bouldering routes. High-intensity training wall & weight training room will be available for those of you training for your next outdoor climbing expeditions. Risu Climbing is the place to begin a new and challenging sport for all ages from toddlers to seniors. Come join us!</p>
+                </div>
+                <div class="col">
+                    <p>8118 Market St, Wilmington, NC 28411</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d824.0530482252701!2d-77.79283333904439!3d34.294136285057206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a98c55453e1611%3A0xcca463415c698e38!2sWilmington%20Rock%20Gym!5e0!3m2!1sen!2sus!4v1603841573284!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <h3>Meet the Staff</h3>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card shadow" id="staffCard">
+                    <img src="img/Photo-Unavailable.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Owner</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugit earum culpa magnam aliquid voluptate quod repellendus rem assumenda neque alias tempora molestias, beatae, ad dolor veniam aut veritatis quisquam.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card shadow" id="staffCard">
+                    <img src="img/Photo-Unavailable.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Manager</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem ea perspiciatis, accusantium beatae, animi ratione rerum qui atque porro veniam libero rem id deserunt provident blanditiis! Qui, corporis aliquam.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card shadow" id="staffCard">
+                    <img src="img/Photo-Unavailable.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Assistant Manager</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore consequatur sapiente provident corporis soluta esse, quod illum nulla eius, iure asperiores nam! Molestias laudantium culpa sequi. Sunt veritatis eaque inventore.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card shadow" id="staffCard">
+                    <img src="img/Photo-Unavailable.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Instructor</h5>
+                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis aut consectetur repellendus voluptatem possimus quia autem? Ex voluptatibus tenetur aspernatur perferendis cumque, qui repudiandae, vel officia minima, dolor exercitationem omnis.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card shadow" id="staffCard">
+                      <img src="img/Photo-Unavailable.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Instructor</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, nostrum, excepturi consectetur fugiat hic dignissimos soluta eligendi impedit quis, exercitationem ipsum velit molestias tempore. Cumque unde a ipsum nostrum minus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card shadow" id="staffCard">
+                      <img src="img/Photo-Unavailable.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Instructor</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quaerat distinctio hic suscipit repellendus harum quisquam. Ea debitis commodi consequatur sint obcaecati quas nemo harum, nihil in minus earum nobis.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+
+         <footer>
+             <div class="footer mt-4">
+                <div class="container">
+                    <div class="row p-2">
+                        <div class="col-sm-4 text-center text-light">
+                            <p>
+                                Hours of Operation: <br>
+                                M-TH: 10am - 9pm <br>
+                                Fri: 10am - 11pm <br>
+                                Sat: 8am - 11pm <br>
+                                Sun: 8am - 9pm
+                            </p>
+                        </div>
+                        <div class="col-sm-4 text-center text-light">
+                            <p>Wilmington, NC</p>
+                            <a role="button" class="btn btn-link text-light" href="tel:+1910555555"><i class="fa fa-phone"></i> 1-910-555-5555</a><br />
+                            <a role="button" class="btn btn-link text-light" href="mailto:climbing@risuclimbing.com"><i class="fa fa-envelope o"></i> climbing@risuclimbing.com</a>
+                        </div>
+                        <div class="col-sm-4 text-center m-auto">
+                            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i> </a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i> </a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </footer>   
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+         <script src="js/scripts.js"></script>
+
+    </body>
+</html>

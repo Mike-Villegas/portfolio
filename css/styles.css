@@ -49,3 +49,6 @@ h1 {
 
 #ratesAndHoursTable td {
   text-align: left; }
+
+#staffCard {
+  border: solid 1px #05395B; }
