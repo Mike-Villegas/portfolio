@@ -41,6 +41,7 @@ $rgba-secondary-2-4: rgba( 62,128,  0,1);
 
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -53,10 +54,6 @@ h1 {
     background-color: $color-primary-0;
 }
 
-.navbar-nav li{
-    padding-left:30px;
-    padding-right:30px;
-  }
 
 #carouselButton {
     position: absolute;
@@ -69,7 +66,7 @@ h1 {
     background-color: $color-black-transparent;
 }
 
-#ratesAndHoursCard, #beginnersCard, #facilitiesCard  {
+#ratesAndHoursCard, #beginnersCard, #membersCard  {
     background-color: $color-secondary-1-0;
     color: white;
 }
@@ -119,3 +116,4 @@ h1 {
 #staffCard {
     border: solid 1px $color-secondary-1-4;
 }
+

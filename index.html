@@ -13,16 +13,16 @@
     </head>
 
     <body>
-        <header class="jumbotron jumbotron-fluid mb-0 p-4">
+        <header class="jumbotron jumbotron-fluid mb-0 " style="background-image: url(img/header-bg.jpg);">
           <div class="container">
             <div class="row">
               <div class="col-4 col-sm-3 col-md-2 m-auto">
                   <img src="img/logo.png" alt="logo" class="img-fluid"/>
               </div>
-              <div class="col text-center m-auto">
+              <div class="col text-center m-auto text-white">
                   <h1>Risu Climbing</h1>
               </div>
-              <div class="col-2 m-auto">
+              <div class="col-md-4 col-xl-2 m-auto">
                   <button id="contactUsButton" class="btn btn-lg" type="button"><a class="text-light" href="#">Contact Us</a></button>
               </div>
             </div>
@@ -48,10 +48,6 @@
                   <div class="form-group">
                       <textarea class="form-control rounded-0" id="formControlTextarea2" rows="3" placeholder="Message"></textarea>
                   </div>
-                  <div class="custom-control custom-checkbox mb-4">
-                      <input type="checkbox" class="custom-control-input" id="contactFormCopy">
-                      <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-                  </div>
                   <button id="contactSendButton" class="btn btn-block" type="submit">Send</button>
                 </form>
               </div>
@@ -62,12 +58,15 @@
 
       <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
           <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#risuClimbingNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <div class="collapse navbar-collapse" id="risuClimbingNavbar">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active"><a class="nav-link" href="#"> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="rates-hours.html"> Rates and Hours</a></li>
                     <li class="nav-item"><a class="nav-link" href="about-us.html"> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html"> Events</a></li>
                     <li class="nav-item"><a class="nav-link" href="document-files/Climbing Waiver.pdf" target="_blank"> Waiver Form</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"> Store</a></li>
                     <li class="nav-item"><a class="nav-link text-danger bg-warning" href="#"> Covid-19 Updates</a></li>
@@ -136,7 +135,7 @@
                                 <a class="text-white" href="rates-hours.html"><h2>Rates and Hours</h2></a>
                             </div>
                             <div class="card-body">
-                                <p> Like the title says...rates and hours. Check out our weekly events too!</p>
+                                <p> Check out our rates and hours. We also host events. <a href="events.html">take a look</a>.</p>
                             </div>                            
                         </div>
                         <div class="card">
@@ -148,12 +147,48 @@
                             </div>                            
                         </div>
                         <div class="card">
-                            <div class="card-header" id="facilitiesCard">
-                                <a class="text-white" href="#"><h2>Our Facilities</h2></a>
+                            <div class="card-header" id="membersCard">
+                                <a class="text-white" href="#"><h2>Members</h2></a>
                             </div>
                             <div class="card-body">
-                                <p>Our gym offers the best indoor climbing experience in Southeast North Carolina. Members also have full access to our workout area which includes cardio, machines, and free weights.</p>
+                                <p><a role="button" id="loginButton">Sign in here.</a></p>
                             </div>                            
+                        </div>
+                        <div id="loginModal" class="modal fade" role="dialog">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h3 class="modal-title">Login</h3>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="container-fluid">
+                                  <form>
+                                    <div class="form-row">
+                                      <div class="form-group col-12">
+                                        <label class="sr-only" for="loginEmail">Email Address</label>
+                                        <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter Email">
+                                      </div>
+                                      <div class="form-group col-12">
+                                        <label class="sr-only" for="loginPassword">Password</label>
+                                        <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                      </div>
+                                      <div class="col">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox">
+                                          <label class="form-check-label">Remember Me</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-row">
+                                      <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                      <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
