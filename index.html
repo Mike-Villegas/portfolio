@@ -13,7 +13,7 @@
     </head>
 
     <body>
-        <header class="jumbotron jumbotron-fluid mb-0 " style="background-image: url(img/header-bg.jpg);">
+        <header class="jumbotron jumbotron-fluid mb-0" style="background-image: url(img/header-bg.jpg);">
           <div class="container">
             <div class="row">
               <div class="col-4 col-sm-3 col-md-2 m-auto">
@@ -129,7 +129,7 @@
               </div>
             <div class="row">
                 <div class="col">
-                    <div class="card-deck">
+                    <div class="card-deck" id="homeCardDeck">
                         <div class="card card">
                             <div class="card-header" id="ratesAndHoursCard">
                                 <a class="text-white" href="rates-hours.html"><h2>Rates and Hours</h2></a>
@@ -150,8 +150,8 @@
                             <div class="card-header" id="membersCard">
                                 <a class="text-white" href="#"><h2>Members</h2></a>
                             </div>
-                            <div class="card-body">
-                                <p><a role="button" id="loginButton">Sign in here.</a></p>
+                            <div class="card-body text-center">
+                                <p><a role="button" id="loginButton" class="btn btn-lg text-white">Sign in here.</a></p>
                             </div>                            
                         </div>
                         <div id="loginModal" class="modal fade" role="dialog">

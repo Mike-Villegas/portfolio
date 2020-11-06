@@ -48,6 +48,10 @@ h1 {
 
 .navbar{
     background-color: $color-primary-0;
+    .nav-item {
+        padding-right: 1.5rem;
+    }
+
 }
 
 .footer {
@@ -86,6 +90,17 @@ h1 {
 #contactSendButton {
     background-color: $color-secondary-1-0;
     color: white;
+}
+
+#homeCardDeck {
+    h2 {
+        text-align: center;
+    }
+}
+
+#loginButton {
+    background-color: $color-primary-0;
+    margin: 0;
 }
 
 #rentalGearRates {

@@ -3,6 +3,8 @@ h1 {
 
 .navbar {
   background-color: #E54F1C; }
+  .navbar .nav-item {
+    padding-right: 1.5rem; }
 
 .footer {
   background-color: #E54F1C; }
@@ -31,6 +33,13 @@ h1 {
 #contactSendButton {
   background-color: #196392;
   color: white; }
+
+#homeCardDeck h2 {
+  text-align: center; }
+
+#loginButton {
+  background-color: #E54F1C;
+  margin: 0; }
 
 #rentalGearRates {
   background-color: #196392;
